@@ -1,0 +1,30 @@
+h3{
+  text-transform: uppercase;
+  background-color: lightblue;
+  padding: 7px;
+}
+
+.productes{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.producte{
+  text-align: center;
+  margin: 5px;
+  border: 1px solid grey;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.producte:hover{
+  text-align: center;
+  margin: 5px;
+  border: 1px solid grey;
+  background-color: red;
+  cursor: pointer;
+}
+
+button{
+  background-color: lightblue;
+}

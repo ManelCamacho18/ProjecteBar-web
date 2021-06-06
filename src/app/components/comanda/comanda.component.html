@@ -1,0 +1,8 @@
+<h3>COMANDA</h3>
+<p>TOTAL : {{ calculaTotal() }} €</p>
+<div class="productes">
+    <div class="producte" *ngFor="let producte of arrProductes; let indice = index;" (click)="onClickEliminar(indice)">
+      <p>{{ producte.nom }} - {{producte.preu}}€</p>
+    </div>
+</div>
+<button type="submit" class="button" mat-raised-button color="white" (click)="enviarComanda()">Enviar</button>

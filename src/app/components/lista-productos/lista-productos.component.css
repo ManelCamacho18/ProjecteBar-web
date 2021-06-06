@@ -1,0 +1,24 @@
+h3{
+  text-transform: uppercase;
+  background-color: lightblue;
+  padding: 7px;
+}
+
+.productes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.producte{
+  width: 24%;
+  margin: 5px;
+  border: 1px solid grey;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.producte p{
+  margin: 5px auto;
+  text-align: center;
+}

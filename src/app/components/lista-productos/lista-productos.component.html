@@ -1,0 +1,7 @@
+<h3>{{ titol }}</h3>
+<div class="productes">
+  <div class="producte" *ngFor="let producte of productes" (click)="onClick(producte)">
+    <p>{{ producte.nom }}</p>
+    <p>{{ producte.preu }}€</p>
+  </div>
+</div>
